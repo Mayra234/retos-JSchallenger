@@ -4,13 +4,23 @@
 // Si no, devuelve el siguiente número primo más alto
 
 function isPrime(a) {
+  let arrayPrimes = [];
+  for (let i = 2; i < 300; i++) {
+      if (a % i === 0) {
+        
+    }
+    }
+  }
+
   let sqrt = Math.floor(Math.sqrt(a)) + 1;
   for (let i = 2; i < sqrt; i++) {
     if (a % i == 0) {
-      return false;
+      if (!arrayPrimes.includes(a)) {
+        return arrayPrimes;
+      }
     }
+    return a;
   }
-  return a;
 }
 
-console.log(isPrime(2));
+console.log(isPrime(8));
