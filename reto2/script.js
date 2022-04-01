@@ -1,7 +1,7 @@
 // Escribe una función que tome dos valores, digamos a y b, como argumentos
 // Devuelve verdadero si los dos valores son iguales y del mismo tipo
 
-function boolen(a, b) {
+function isBoolean(a, b) {
   if (a === b) {
     return true;
   } else {
@@ -9,4 +9,4 @@ function boolen(a, b) {
   }
 }
 
-console.log(boolen(7, '7'));
+console.log(isBoolean(7, '7'));

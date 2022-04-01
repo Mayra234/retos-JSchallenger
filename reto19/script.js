@@ -4,6 +4,7 @@
 // 'Javascript', 'Countryside', and 'Downtown'
 // You might want to apply basic JS string methods such as replace(), split(), slice() etc
 
-function formatWords(a, b) {}
+function formatWords(a, b) {
+  return a + b.replace('%', '').split('').reverse().join('');
+}
 console.log(formatWords('java', 'tpi%rcs'));
-// pendinete

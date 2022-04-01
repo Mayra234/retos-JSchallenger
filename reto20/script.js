@@ -5,22 +5,16 @@
 
 function isPrime(a) {
   let arrayPrimes = [];
-  for (let i = 2; i < 300; i++) {
-      if (a % i === 0) {
-        
-    }
+  if (a === 0 || a === 1 || a === 4) {
+    return false;
+  }
+  for (let i = 2; i < 300 / 2; i++) {
+    if (a % i === 0) {
+      return false;
     }
   }
-
-  let sqrt = Math.floor(Math.sqrt(a)) + 1;
-  for (let i = 2; i < sqrt; i++) {
-    if (a % i == 0) {
-      if (!arrayPrimes.includes(a)) {
-        return arrayPrimes;
-      }
-    }
-    return a;
-  }
+  arrayPrimes.push(a);
+  return a;
 }
 
-console.log(isPrime(8));
+console.log(isPrime(7));
