@@ -1,7 +1,7 @@
 // Escribe una función que tome dos números (a y b) como argumento
 // Devuelve b por ciento de a
 
-function returnsPercent(a, b) {
+function calcPercentage(a, b) {
   return (a / 100) * b;
 }
-console.log(returnsPercent(500, 25));
+console.log(calcPercentage(10, 100));

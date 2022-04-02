@@ -3,11 +3,7 @@
 // Si no, añádelo al final
 // Devuelve la concatenación
 
-function containerString(a, b) {
-  if (a.includes(b)) {
-    return b + a;
-  } else {
-    return a + b;
-  }
+function containsString(a, b) {
+  return a.includes(b) ? b + a : a + b;
 }
-console.log(containerString('lips', 's'));
+console.log(containsString('lips', 's'));

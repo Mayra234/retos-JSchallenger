@@ -2,7 +2,7 @@
 // Extrae la primera mitad de a
 // Devuelve el resultado
 
-function extractString(a) {
+function extractFirstStringHalf(a) {
   return a.substring(0, a.length / 2);
 }
 console.log(extractString('gedcba'));

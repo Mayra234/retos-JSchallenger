@@ -2,11 +2,7 @@
 // Devuelve verdadero si los dos valores son iguales y del mismo tipo
 
 function isBoolean(a, b) {
-  if (a === b) {
-    return true;
-  } else {
-    return false;
-  }
+  return a === b ? true : false;
 }
 
 console.log(isBoolean(7, '7'));

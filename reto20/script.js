@@ -4,17 +4,14 @@
 // Si no, devuelve el siguiente número primo más alto
 
 function isPrime(a) {
-  let arrayPrimes = [];
-  if (a === 0 || a === 1 || a === 4) {
-    return false;
-  }
-  for (let i = 2; i < 300 / 2; i++) {
+  for (let i = 2; i < a - 1; i++) {
     if (a % i === 0) {
-      return false;
+      a++;
+      i = 2;
     }
   }
-  arrayPrimes.push(a);
+
   return a;
 }
 
-console.log(isPrime(7));
+console.log(isPrime(182));

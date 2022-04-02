@@ -2,7 +2,7 @@
 // Devuelve el numero de veces que a ocurre en b
 
 function numberOfTimes(a, b) {
-  return b.split('').filter((text) => text.match(new RegExp(a))).length;
+  return b.match(new RegExp(a)).length;
 }
 console.log(
   numberOfTimes(

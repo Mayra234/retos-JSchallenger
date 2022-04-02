@@ -2,11 +2,7 @@
 // Si el número es par, devuelve verdadero
 // De lo contrario, devuelve falso
 
-function validationNumber(number) {
-  if (number % 2 == 0) {
-    return true;
-  } else {
-    return false;
-  }
+function isOddOrEven(number) {
+  return number % 2 == 0 ? true : false;
 }
-console.log(validationNumber(-111));
+console.log(isOddOrEven(-111));

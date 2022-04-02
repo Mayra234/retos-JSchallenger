@@ -2,7 +2,7 @@
 // Obtener los primeros 3 caracteres de a
 // Devuelve el resultado
 
-function string(a) {
+function getFirstThreeCharacters(a) {
   return a.substr(0, 3);
 }
 console.log(string('mayra'));

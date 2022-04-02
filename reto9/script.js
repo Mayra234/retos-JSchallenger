@@ -2,7 +2,7 @@
 // Eliminar los últimos 3 caracteres de a
 // Devuelve el resultado
 
-function deleteCharactersStrings(a) {
-  return a.slice(0, a.length - 3);
+function deleteLastThreeStringCharacters(a) {
+  return String(a).slice(0, a.length - 3);
 }
-console.log(deleteCharactersStrings('1234'));
+console.log(deleteLastThreeStringCharacters('1234'));

@@ -3,10 +3,6 @@
 // De lo contrario, multiplica ambos números
 // Devuelve el valor resultante
 function operationMath(a, b) {
-  if (a < b) {
-    return a / b;
-  } else {
-    return a * b;
-  }
+  return a < b ? a / b : a * b;
 }
 console.log(operationMath(90, 45));

@@ -2,7 +2,7 @@
 // Extrae los últimos 3 caracteres de la cadena
 // Devuelve el resultado
 
-function string(a) {
+function deleteLastThreeCharacters(a) {
   return a.substr(-3, 3);
 }
-console.log(string('nbwerjv'));
+console.log(deleteLastThreeCharacters('nbwerjv'));
