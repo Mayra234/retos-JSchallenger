@@ -5,4 +5,4 @@
 function extractFirstStringHalf(a) {
   return a.substring(0, a.length / 2);
 }
-console.log(extractString('gedcba'));
+console.log(extractFirstStringHalf('gedcba'));

@@ -5,4 +5,4 @@
 function getFirstThreeCharacters(a) {
   return a.substr(0, 3);
 }
-console.log(string('mayra'));
+console.log(getFirstThreeCharacters('mayra'));

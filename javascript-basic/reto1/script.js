@@ -2,7 +2,7 @@
 // Suma a y b
 // Devuelve el resultado
 
-const sum = (a, b) => {
+const sumTwoNumber = (a, b) => {
   return a + b;
 };
-console.log(sum(8, 15));
+console.log(sumTwoNumber(8, 15));

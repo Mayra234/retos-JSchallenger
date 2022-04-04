@@ -4,4 +4,4 @@
 function isInteger(a) {
   return Number.isInteger(a) ? true : false;
 }
-console.log(wholeNumber(8));
+console.log(isInteger(8));
